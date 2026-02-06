@@ -11,7 +11,7 @@
     - X-Axis Rail from decomissioned Ender 5 3D printer
     - Misc. Components (Wires, capacitors, etc.)
 - **The robot was created using the following software stack:**
-    - PlatformIO to compile and upload code to arduino
+    - PlatformIO to compile and upload code to arduino (you can just use the Arduino IDE)
     - C++ for all code
     - Autodesk Fusion Education Edition for CAD
     - Blender for renders
