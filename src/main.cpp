@@ -1,4 +1,5 @@
 //Code by Orion North
+//Templeton STEM Senior Project #1 (2026) - CatchBOT
 #include <Arduino.h>
 #include <math.h>
 
