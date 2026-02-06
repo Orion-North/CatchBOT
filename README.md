@@ -13,10 +13,12 @@
 - **The robot was created using the following software stack:**
     - PlatformIO to compile and upload code to arduino
     - C++ for all code
-    - Autodesk Fusion Education Edition for CAD + Renders
+    - Autodesk Fusion Education Edition for CAD
+    - Blender for renders
 - Notes
     - We did not use a library for driving the stepper as it adds additional overhead and we only need simple control of an individual motor
     - Stepper is running at 24V with an approx 0.8A phase current
     - Robot can currently catch consistently (~80% of the time) at short distances but requires further tuning for longer distances + higher speed
 
 ![Demo](VID_20260206_124850126.gif)
+![Sensor Render](CatchSens2.png)
