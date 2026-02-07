@@ -11,14 +11,16 @@
     - X-Axis Rail from decomissioned Ender 5 3D printer
     - Misc. Components (Wires, capacitors, etc.)
 - **The robot was created using the following software stack:**
-    - PlatformIO to compile and upload code to arduino
+    - PlatformIO to compile and upload code to arduino (you can just use the Arduino IDE)
     - C++ for all code
     - Autodesk Fusion Education Edition for CAD
     - Blender for renders
 - Notes
     - We did not use a library for driving the stepper as it adds additional overhead and we only need simple control of an individual motor
     - Stepper is running at 24V with an approx 0.8A phase current
-    - Robot can currently catch consistently (~80% of the time) at short distances but requires further tuning for longer distances + higher speed
+    - Robot can currently catch consistently at short distances as shown below (~80% of the time) but requires further tuning for longer distances + higher speed
+    - As you can see, there is another object in the cup already, this is to absorb the energy from the ball, preventing it from bouncing out
+    - **Arduino code is located in the src foldler of this repo's root**
 
 ![Demo](VID_20260206_124850126.gif)
 ![Sensor Render](CatchSens2.png)
