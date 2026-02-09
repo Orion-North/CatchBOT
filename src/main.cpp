@@ -10,7 +10,7 @@
 #define ENABLE_PIN -1
 
 // Motion limits
-const unsigned int MAX_FREQ = 3000;
+const unsigned int MAX_FREQ = 4000;
 const unsigned int LOW_SPEED_FLOOR = 700;
 const unsigned int MIN_FREQ = LOW_SPEED_FLOOR;
 const unsigned int CRUISE_FREQ = 900;
@@ -34,7 +34,7 @@ float TABLE_HEIGHT_MM = 720.0f;
 float SENSOR2_TO_EDGE_MM = 6.0f;
 const float CUP_DIAMETER_MM = 50.0f;
 const float CUP_EDGE_PAST_TABLE_MM = 5.0f;
-const float TARGET_OFFSET_MM = -120.0f;
+const float TARGET_OFFSET_MM = -50.0f;
 
 // Belt and steps
 const int STEPS_PER_REV = 200;

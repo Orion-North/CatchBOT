@@ -22,5 +22,5 @@
     - As you can see, there is another object in the cup already, this is to absorb the energy from the ball, preventing it from bouncing out
     - **Arduino code is located in the src foldler of this repo's root**
 
-![Demo](VID_20260206_124850126.gif)
+![Demo](speedy.gif)
 ![Sensor Render](CatchSens2.png)
