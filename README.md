@@ -18,7 +18,7 @@
 - Notes
     - We did not use a library for driving the stepper as it adds additional overhead and we only need simple control of an individual motor
     - Stepper is running at 24V with an approx 0.8A phase current
-    - Robot can currently catch consistently at short distances as shown below (~80% of the time) but requires further tuning for longer distances + higher speed
+    - Robot can currently catch consistently at all distances within the length of the rail, however it occasionally can stall the motor and could be tuned further for reliability
     - As you can see, there is another object in the cup already, this is to absorb the energy from the ball, preventing it from bouncing out
     - **Arduino code is located in the src foldler of this repo's root**
 
