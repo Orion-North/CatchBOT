@@ -24,3 +24,4 @@
 
 ![Demo](speedy.gif)
 ![Sensor Render](CatchSens2.png)
+![Circuit Diagram](circuitdiagram.png)
